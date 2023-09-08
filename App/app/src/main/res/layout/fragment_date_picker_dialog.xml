@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="500dp">
+
+        <DatePicker
+            android:id="@+id/datepicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:headerBackground="@color/lite_green"
+            android:calendarTextColor="@color/white"
+            />
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lite_green"
+                android:textSize="30dp"
+                android:text="Enter"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/nanum_square_round_otfb" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/lite_green"
+                android:layout_marginLeft="5dp"
+                android:textSize="30dp"
+                android:text="Cancel"
+                android:fontFamily="@font/nanum_square_round_otfb" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
